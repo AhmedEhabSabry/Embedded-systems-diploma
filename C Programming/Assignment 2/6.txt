@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{  
+    printf("Enter an integer : ");
+    fflush(stdin);fflush(stdout);
+    int  n;
+    scanf("%d",&n);
+    printf("sum = %d",(n*(n+1))/2);
+}

@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : first.c
+ Author      : ahmed
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+long int power(int a,int b){
+if(b==0)return 1;	
+return (a* power (a,b-1));
+
+}
+int main(void) {
+	int a,b;
+printf("Enter base number  : ");
+scanf("%d",&a);
+printf("Enter power  number (positive integer ): ");
+scanf("%d",&b);
+printf("%d power %d =%ld ",a,b,power(a,b));
+
+return 0;
+}

@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : first.c
+ Author      : ahmed
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void prime_numbers_interval(int a,int b);
+int is_prime(int a);
+int main(void) {
+	int a,b;
+	printf("Enter two numbers(intervals) ");
+	
+	fflush(stdin);fflush(stdout);
+	scanf("%d%d",&a,&b);
+	
+	prime_numbers_interval(a,b);
+	
+	return 0;
+}
+void prime_numbers_interval(int a,int b){
+	int i;
+	for(i=a;i<=b;i++){
+		if(is_prime(i))printf("%d ",i);
+	}
+}
+
+int is_prime(int a){
+
+	int i,m=a/2;    
+	for(i=2;i<=m;i++)    
+	{    
+	if(a%i==0)    
+	{    
+	return 0;   
+	}    
+	}    
+	return 1;
+	
+}

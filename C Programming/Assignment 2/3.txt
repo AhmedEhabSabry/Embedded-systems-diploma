@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{  
+    float a,b,c;
+    printf("Enter Three Numbers :");
+    fflush(stdin);fflush(stdout);
+    scanf("%f%f%f",&a,&b,&c);
+    float res;
+    res=(a>b)?a:b;
+    res=(res>c)?res:c;
+    
+    printf("Largest Number %f",res);
+}

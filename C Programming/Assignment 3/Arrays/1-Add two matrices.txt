@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+	float arr1[2][2];
+	printf("Enter the elements of 1st matrix\r\n");
+	int i, j;
+	for (i = 1; i <= 2; i++) {
+		for (j = 1; j <= 2; j++) {
+			printf("Enter a%d%d", i, j);
+			scanf("%f", &arr1[i - 1][j - 1]);
+		}
+	}
+
+	float arr2[2][2];
+	printf("\r\nEnter the elements of 2st matrix\r\n");
+
+	for (i = 1; i <= 2; i++) {
+		for (j = 1; j <= 2; j++) {
+			printf("Enter b%d%d", i, j);
+			scanf("%f", &arr2[i - 1][j - 1]);
+		}
+	}
+	printf("sum of matrix\r\n");
+
+	for (i = 1; i <= 2; i++) {
+		for (j = 1; j <= 2; j++) {
+			printf("%.1f ", arr1[i - 1][j - 1] + arr2[i - 1][j - 1]);
+		}
+		printf("\r\n");
+	}
+}

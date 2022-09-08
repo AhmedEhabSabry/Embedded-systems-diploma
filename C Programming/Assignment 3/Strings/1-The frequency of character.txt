@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main() {
+    int i,count=0;
+	char name[100],freq;
+	printf("enter a string \n");
+	gets (name);
+	printf("Enter a character to find the frequency of it \r\n");
+	scanf("%c",&freq);
+	for (i=0;i<strlen(name);i++)
+	{
+		if (name[i]==freq)
+			count++;
+	}
+	printf("frequency of %c is %d",freq,count);
+}

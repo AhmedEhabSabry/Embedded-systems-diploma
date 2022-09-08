@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+	char stri[100] = {0};
+	int length = 0 , i = 0;
+	printf("Enter a string : ");
+
+	gets(stri);
+	
+	for(i = 0 ; i < sizeof(stri) ; i++)
+	{
+if(( stri[i] >= 'a' && stri[i] <= 'z') || ( stri[i] >= 'A' && stri[i] <= 'Z'))
+			length ++ ;
+	}
+	printf("The length of the string is : %d ",length);
+	return 1;
+}

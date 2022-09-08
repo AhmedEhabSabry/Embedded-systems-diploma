@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main() {
+	printf("Enter The number of elements : ");
+	int n;
+	scanf("%d", &n);
+	int *arr = (int*) malloc(sizeof(int) * n);
+
+	int i;
+	for (i = 0; i < n; i++) {
+		scanf("%d", arr + i);
+	}
+
+	printf("Enter The  element to be searched : ");
+	int sear;
+	scanf("%d", &sear);
+
+	for (i = 0; i < n; i++) {
+		if (arr[i] == sear) {
+			printf("%d", i + 1);
+			break;
+		}
+	}
+
+}
