@@ -1,0 +1,10 @@
+Output:
+size of union=32
+size of structure=40
+
+
+Explanation :
+
+becouse the size of union is equal to the biggest size of datatype of it's members
+
+but the size of structure is equal to the sumation of size of the datatypes of all members
