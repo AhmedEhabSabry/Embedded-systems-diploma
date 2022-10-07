@@ -16,10 +16,10 @@ int main(void)
 
 	while(1)
 	{int i;
-			//set bit 13
-		for(i=0;i<50000;i++);
-			//clear bit 13
-		for(i=0;i<50000;i++);
+GPIOA_ODR |=(1<<13);			//set bit 13
+		for(i=0;i<5000;i++);
+GPIOA_ODR &=!(1<<13);			//clear bit 13
+		for(i=0;i<5000;i++);
 	}
 
    return 0;
