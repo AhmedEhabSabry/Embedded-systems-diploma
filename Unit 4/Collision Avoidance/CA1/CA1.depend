@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1666985084 source:d:\embedded-systems-diploma\unit 4\collision avoidance\ca1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1666985152 source:d:\embedded-systems-diploma\unit 4\collision avoidance\ca1\ca1.c
+	"ca1.h"
+
+1666985205 d:\embedded-systems-diploma\unit 4\collision avoidance\ca1\ca1.h
+

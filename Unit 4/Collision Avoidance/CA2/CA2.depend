@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1666999324 source:d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\dc_motor.c
+	"state.h"
+	"DC_motor.h"
+
+1666999324 d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\state.h
+	"stdio.h"
+	"stdlib.h"
+
+1666999324 d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\dc_motor.h
+	"state.h"
+
+1666999402 source:d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\main.c
+	"Collision_avoidance.h"
+	"DC_motor.h"
+	"US.h"
+
+1666999324 d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\collision_avoidance.h
+	"state.h"
+
+1666999324 d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\us.h
+	"state.h"
+
+1666999324 source:d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\us.c
+	"US.h"
+
+1666999822 source:d:\embedded-systems-diploma\unit 4\collision avoidance\ca2\collision_avoidance.c
+	"Collision_avoidance.h"
+
